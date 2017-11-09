@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'machinist', '~> 1.0.6'
   s.add_development_dependency 'faker', '~> 1.6.5'
   s.add_development_dependency 'sqlite3', '~> 1.3.3'
+  s.add_development_dependency 'pry', '>= 0.11'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
